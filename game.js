@@ -69,7 +69,7 @@ playSound(randomChosenColour);
 
 function playSound(name){
 
-    var a = new Audio("sounds/"+name+".mp3");
+    var a = new Audio(name+".mp3");
     a.play(); 
   
 }
